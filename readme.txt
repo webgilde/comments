@@ -18,10 +18,10 @@ You can find the settings page under `Comments > Settings` in the dashboard.
 
 **Features**
 
-* enable/disable commenting for based on post type: posts, pages and custom post types
+* remove comments from post type: posts, pages, attachments and other public custom post types
 * [more coming soon]
 
-I am open to your suggestions for more features here or in the [github repository](https://github.com/webgilde/comment-form)
+I am open to your suggestions for more features here or in the [github repository](https://github.com/webgilde/comments)
 
 == Installation ==
 
@@ -43,4 +43,4 @@ I am open to your suggestions for more features here or in the [github repositor
 
 = 1.0 =
 
-* enable/disable comments based on post type
+* remove comments based on post type
