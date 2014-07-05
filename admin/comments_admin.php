@@ -15,7 +15,7 @@ class Comments_Admin extends Comments_Main {
      * @since 1.0.0
      */
     public function add_menu_item() {
-        add_comments_page(__('Customize Comments', 'comments'), __('Comments', 'comments'), 'manage_options', 'comments-customizer', array($this, 'render_settings_page'));
+        add_comments_page(__('Customize Comments', 'comments'), __('Settings', 'comments'), 'manage_options', 'comments-customizer', array($this, 'render_settings_page'));
     }
 
     /**
@@ -64,6 +64,7 @@ class Comments_Admin extends Comments_Main {
         echo '<p>' . __('Choose on which post types comments are disabled.', 'comments') . '</p>';
         echo '<p>' . __('Keep in mind that this does not work in reverse. E.g. if commenting is disabled in your blog or your theme doesn’t have comments included for all post types not disabling them here does not automatically enabling them.', 'comments') . '</p>';
         echo '<p>' . __('The setting will not overwrite post (type) specific settings. If commenting is disabled for a specific post, allowing it here does not have any effect', 'comments') . '</p>';
+        echo '<p>' . __('Comments will not be removed from your database when you disable them here.', 'comments') . '</p>';
     }
 
     /**
