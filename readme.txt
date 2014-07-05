@@ -29,16 +29,6 @@ I am open to your suggestions for more features here or in the [github repositor
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Visit the settings page under `Comments > Settings` to customize the form
 
-== Screenshots ==
-
-1. Comment form before and after applying some of the plugin options
-2. Two-column comment form layout
-
-== Important Notes ==
-
-* the plugin works only, if your theme uses the standard WordPress comment form function
-* options that where submitted with the `comment_form` function in your template overwrite most of the plugin functions
-
 == Changelog ==
 
 = 1.0 =
